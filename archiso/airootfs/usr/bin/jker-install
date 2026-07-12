@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ "$(id -u)" -ne 0 ]; then
+    exec pkexec python3 /usr/share/jker-apps/installer/gui_installer.py "$@"
+else
+    exec python3 /usr/share/jker-apps/installer/gui_installer.py "$@"
+fi

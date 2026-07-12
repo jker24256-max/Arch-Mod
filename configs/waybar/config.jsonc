@@ -1,0 +1,71 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "spacing": 4,
+    "modules-left": [
+        "hyprland/workspaces",
+        "custom/jker-crest"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "network",
+        "cpu",
+        "memory",
+        "temperature",
+        "pulseaudio",
+        "battery",
+        "custom/power"
+    ],
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate"
+    },
+    "custom/jker-crest": {
+        "format": " // JKER OS SECURE ",
+        "tooltip": false
+    },
+    "clock": {
+        "timezone": "UTC",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%Y-%m-%d // %H:%M:%S UTC}"
+    },
+    "cpu": {
+        "format": "CPU: {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "RAM: {}%"
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "TEMP: {temperatureC}°C"
+    },
+    "network": {
+        "format-wifi": "WIFI: {essid} ({signal}% SSID)",
+        "format-ethernet": "LAN: {ipaddr}/{cidr}",
+        "format-disconnected": "OFFLINE",
+        "tooltip-format": "{ifname} via {gwaddr}"
+    },
+    "pulseaudio": {
+        "format": "VOL: {volume}%",
+        "format-muted": "MUTED",
+        "on-click": "pavucontrol"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "BAT: {capacity}%",
+        "format-charging": "CHG: {capacity}%",
+        "format-plugged": "AC: {capacity}%"
+    },
+    "custom/power": {
+        "format": " SHUTDOWN ",
+        "on-click": "shutdown now",
+        "tooltip": false
+    }
+}

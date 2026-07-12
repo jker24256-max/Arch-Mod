@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=JKER Spinner
+Description=Tactical military spinner theme with JKER OS security logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/jker-spinner
+ScriptFile=/usr/share/plymouth/themes/jker-spinner/jker-spinner.script

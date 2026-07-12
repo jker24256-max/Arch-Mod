@@ -1,0 +1,56 @@
+/* ==============================================================================
+ * JKER OS - SwayNC Notification Style Sheet
+ * Dark carbon style with Crimson alerts
+ * ============================================================================== */
+
+.notification {
+    background: #1F2833;
+    border: 1px solid #D90429;
+    border-radius: 8px;
+    color: #EDF2F4;
+    padding: 10px;
+    margin: 6px;
+    font-family: "Courier New", monospace;
+}
+
+.notification-title {
+    color: #D90429;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.notification-body {
+    color: #EDF2F4;
+    font-size: 12px;
+}
+
+.control-center {
+    background: rgba(11, 12, 16, 0.95);
+    border: 2px solid #D90429;
+    border-radius: 8px;
+    color: #EDF2F4;
+    padding: 10px;
+}
+
+.control-center-title {
+    color: #D90429;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+}
+
+.widget-dnd {
+    color: #8D99AE;
+    font-family: "Courier New", monospace;
+}
+
+.widget-dnd > switch {
+    background: #151A21;
+    border: 1px solid #8D99AE;
+    border-radius: 4px;
+}
+
+.widget-dnd > switch:checked {
+    background: #D90429;
+    border-color: #D90429;
+}

@@ -1,0 +1,108 @@
+# ==============================================================================
+# JKER OS - Target System Package List (packages.x86_64)
+# Packages will be fetched and pre-loaded into the bootable live ISO filesystem.
+# ==============================================================================
+
+# Core System Base
+base
+base-devel
+linux
+linux-headers
+linux-firmware
+intel-ucode
+amd-ucode
+grub
+efibootmgr
+sudo
+os-prober
+rsync
+plymouth
+
+# Wireless & Networking
+networkmanager
+network-manager-applet
+wireless_tools
+wpa_supplicant
+dialog
+ethtool
+
+# Wayland Desktop Environment
+hyprland
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-wlr
+kitty
+rofi-wayland
+swaync
+dunst
+thunar
+thunar-archive-plugin
+gvfs
+polkit-gnome
+swww
+hyprlock
+hypridle
+fastfetch
+btop
+pavucontrol
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+brightnessctl
+grim
+slurp
+swappy
+wl-clipboard
+
+# Custom GUI App Dependencies
+python
+python-pyqt6
+python-cryptography
+python-pip
+
+# Cybersecurity Suite
+nmap
+wireshark-qt
+hashcat
+john
+hydra
+gobuster
+ffuf
+sqlmap
+nikto
+whatweb
+aircrack-ng
+tcpdump
+gnu-netcat
+responder
+python-impacket
+docker
+podman
+ufw
+fail2ban
+usbguard
+
+# Developer Environment
+git
+github-cli
+rust
+go
+openjdk-src
+nodejs
+npm
+tmux
+ripgrep
+fzf
+fd
+tree
+zip
+unzip
+p7zip
+neovim
+ttf-nerd-fonts-symbols-common
+otf-ipafont
+adobe-source-code-pro-fonts
+EOF

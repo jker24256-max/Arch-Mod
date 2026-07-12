@@ -1,0 +1,13 @@
+python
+python-pyqt6
+python-cryptography
+python-pip
+parted
+dosfstools
+e2fsprogs
+xfsprogs
+squashfs-tools
+rsync
+shadow
+util-linux
+dmidecode

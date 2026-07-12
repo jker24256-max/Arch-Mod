@@ -1,0 +1,58 @@
+[global]
+    monitor = 0
+    follow = mouse
+    width = 300
+    height = 110
+    origin = top-right
+    offset = 10x10
+    scale = 0
+    notification_limit = 20
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    
+    # Border & Frames
+    frame_width = 1
+    frame_color = "#D90429"
+    separator_color = "frame"
+    
+    # Typography
+    font = Courier New 11
+    line_height = 0
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    show_age_threshold = 60
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    
+    # Timing
+    sticky_history = yes
+    history_length = 20
+    dmenu = /usr/bin/rofi -dmenu -p dunst:
+    browser = /usr/bin/xdg-open
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    corner_radius = 8
+
+[urgency_low]
+    background = "#1F2833"
+    foreground = "#EDF2F4"
+    timeout = 4
+
+[urgency_normal]
+    background = "#1F2833"
+    foreground = "#EDF2F4"
+    timeout = 6
+
+[urgency_critical]
+    background = "#1F2833"
+    foreground = "#EDF2F4"
+    frame_color = "#D90429"
+    timeout = 10
